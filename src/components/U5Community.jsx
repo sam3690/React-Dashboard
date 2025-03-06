@@ -175,7 +175,7 @@ const U5Community = () => {
 
 
   return (
-    <div className='flex flex-row justify-center items-contain flex-wrap w-full'>
+    <div className='flex sm:flex-row flex-col justify-center items-contain flex-wrap w-full'>
       {/* charts main section */}
       <div className='flex sm:flex-row flex-col flex-wrap justify-start sm:gap-6 gap-3 items-start h-auto w-[800px] p-3'>
         {/* chart 1 start */}
@@ -310,38 +310,38 @@ const U5Community = () => {
         {/* chart 4 end */}
       </div>
       {/* chart main section end */}
-      <div className='flex flex-col flex-wrap justify-betweeon items-center w-[400px] h-[800px} bg-white shadow-lg rounded-lg p-3'>
+      <div className='flex flex-col justify-betweeon items-center sm:w-[400px] w-[200px] sm:h-[800px] h-[400px] bg-white shadow-lg rounded-lg p-3'>
         {/* starts here */}
-        <div className="max-w-sm rounded-lg bg-gray-200 p-4 shadow-md border border-gray-300">
-          <div className="flex justify-between items-center mb-2">
-            <h2 className="text-lg font-medium">Screened:</h2>
-            <span className="font-bold text-lg">5419</span>
+        <div className="bg-white border-4 border-gray-300 rounded-lg shadow-md p-4 max-w-xs">
+          <div className="flex justify-between items-center mb-3">
+            <span className="font-bold text-gray-800">Screened:</span>
+            <span className="font-bold text-gray-800">5419</span>
           </div>
-
+          
           <div className="space-y-2">
             <div className="flex justify-between items-center">
-              <div className="flex items-center">
-                {/* Image placeholder - you'll add your own image here */}
-                <div className="w-8 h-8 bg-gray-300 rounded-full mr-2"></div>
-                <span>Male:</span>
+              <div className="flex items-center gap-2">
+                {/* Image placeholder - you will add yourself */}
+                <div className="w-6 h-6 rounded-full bg-gray-200"></div>
+                <span className="text-gray-700">Male:</span>
               </div>
-              <span>50.43%</span>
+              <span className="text-gray-700">50.43%</span>
             </div>
-
+            
             <div className="flex justify-between items-center">
-              <div className="flex items-center">
-                {/* Image placeholder - you'll add your own image here */}
-                <div className="w-8 h-8 bg-gray-300 rounded-full mr-2"></div>
-                <span>Female:</span>
+              <div className="flex items-center gap-2">
+                {/* Image placeholder - you will add yourself */}
+                <div className="w-6 h-6 rounded-full bg-gray-200"></div>
+                <span className="text-gray-700">Female:</span>
               </div>
-              <span>49.57%</span>
+              <span className="text-gray-700">49.57%</span>
             </div>
-
-            <div className="border-t border-gray-300 pt-2 mt-2">
-              <div className="flex justify-between items-center">
-                <span>Follow-up:</span>
-                <span className="font-bold">13308</span>
-              </div>
+          </div>
+          
+          <div className="mt-3 pt-3 border-t border-gray-200">
+            <div className="flex justify-between items-center">
+              <span className="font-bold text-gray-800">Follow-up:</span>
+              <span className="font-bold text-gray-800">13308</span>
             </div>
           </div>
         </div>

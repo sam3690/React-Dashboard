@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
 
-    <div className='flex flex-col justify-center items-center border-2 border-black'>
+    <div className='flex flex-col justify-center items-center '>
         <div className='grid grid-cols-2 sm:grid-cols-4 sm:gap-6 gap-3 p-2 '>
                 {/* div 1*/}
             <div className={`relative bg-white rounded-lg flex flex-col items-between justify-center shadow-md sm:h-[150px] h-[80px] max-h-[100px] sm:w-[260px] w-[150px] max-w-[400px] cursor-pointer`} onClick={() => handleDivClick('U5Community')}>
