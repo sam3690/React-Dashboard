@@ -10,7 +10,7 @@ import Home from '../pages/Home';
 
 const SideBar = () => {
   return (
-        <div className='group hidden sm:flex flex-col z-10 gap-10 bg-white h-screen  hover:w-[200px] w-[80px] duration-300 max-w-[300px] justify-start shadow-[10px_0_15px_-3px_rgba(0,0,0,0.1)] p-4 fixed pt-22'>
+        <div className='group hidden sm:flex flex-col z-10 gap-10 bg-white h-screen hover:w-[200px] w-[80px] duration-300 max-w-[300px] justify-start shadow-[10px_0_15px_-3px_rgba(0,0,0,0.1)] p-4 fixed pt-22'>
             {/* single item */}
             <Link to={Home}><div className={` flex flex-row group-hover:m-2 duration-300 justify-start items-center w-full h-[30px] max-h-[30px]`}>
                 <div><FaHome className='text-2xl duration-300 group-hover:text-xl text-gray-600'/></div>
