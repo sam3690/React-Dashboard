@@ -313,38 +313,38 @@ const U5Community = () => {
       <div className='flex flex-col flex-wrap justify-betweeon items-center w-[400px] h-[800px} bg-white shadow-lg rounded-lg p-3'>
         {/* starts here */}
         <div className="max-w-sm rounded-lg bg-gray-200 p-4 shadow-md border border-gray-300">
-      <div className="flex justify-between items-center mb-2">
-        <h2 className="text-lg font-medium">Screened:</h2>
-        <span className="font-bold text-lg">5419</span>
-      </div>
-
-      <div className="space-y-2">
-        <div className="flex justify-between items-center">
-          <div className="flex items-center">
-            {/* Image placeholder - you'll add your own image here */}
-            <div className="w-8 h-8 bg-gray-300 rounded-full mr-2"></div>
-            <span>Male:</span>
+          <div className="flex justify-between items-center mb-2">
+            <h2 className="text-lg font-medium">Screened:</h2>
+            <span className="font-bold text-lg">5419</span>
           </div>
-          <span>50.43%</span>
-        </div>
 
-        <div className="flex justify-between items-center">
-          <div className="flex items-center">
-            {/* Image placeholder - you'll add your own image here */}
-            <div className="w-8 h-8 bg-gray-300 rounded-full mr-2"></div>
-            <span>Female:</span>
-          </div>
-          <span>49.57%</span>
-        </div>
+          <div className="space-y-2">
+            <div className="flex justify-between items-center">
+              <div className="flex items-center">
+                {/* Image placeholder - you'll add your own image here */}
+                <div className="w-8 h-8 bg-gray-300 rounded-full mr-2"></div>
+                <span>Male:</span>
+              </div>
+              <span>50.43%</span>
+            </div>
 
-        <div className="border-t border-gray-300 pt-2 mt-2">
-          <div className="flex justify-between items-center">
-            <span>Follow-up:</span>
-            <span className="font-bold">13308</span>
+            <div className="flex justify-between items-center">
+              <div className="flex items-center">
+                {/* Image placeholder - you'll add your own image here */}
+                <div className="w-8 h-8 bg-gray-300 rounded-full mr-2"></div>
+                <span>Female:</span>
+              </div>
+              <span>49.57%</span>
+            </div>
+
+            <div className="border-t border-gray-300 pt-2 mt-2">
+              <div className="flex justify-between items-center">
+                <span>Follow-up:</span>
+                <span className="font-bold">13308</span>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
         {/* ends here */}
       </div>
     </div>
